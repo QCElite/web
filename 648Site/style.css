@@ -1,0 +1,140 @@
+.body{
+	margin:0px;
+}
+
+#content{
+	max-width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:60px;
+	min-height:800px;
+}
+
+#sidebar{
+	float:left;
+	width:200px;
+	height:100%;
+}
+
+#headerLogo{
+	margin-left:32px;
+	width:168px;
+	height:40px;
+	/* Pre-Nathan Color: #f59B00 */
+	background:#EB9E16;
+}
+
+#logo{
+	width:200px;
+	margin-top:-49px;
+	margin-left:-32px;
+}
+
+#header{
+	float:left;
+	height:40px;
+	width:100%;
+	max-width:1000px;
+	/* Pre-Nathan Color: #f59B00 */
+	background:#EB9E16;
+}
+
+#core{
+	float:left;
+	max-width:1000px;
+	height:100%;
+	/*background:#dfdfdf*/
+}
+
+#footer{
+	width:100%;
+	height:200px;
+}
+
+#footerTopRow{
+	width:580;
+	height:100;
+	margin-left:auto;
+	margin-right:auto
+}
+
+#firstlogo{
+	width:200px;
+	float:left;
+	margin-right:10px
+}
+
+#frclogo{
+	width:200px;
+	margin-top:15px;
+	margin-left:5px;
+	float:left;
+}
+
+.headerCell{
+	width:12%;
+	float:left;
+}
+
+.headerlink{
+	color:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-family:helvetica;
+	margin-top:10px;
+}
+
+.socialCell{
+	float:left;
+	width:25%;
+	margin-top:5px;
+}
+
+#facebookCell{
+	margin-left:auto;
+	margin-right:auto;
+	width:29px;
+	height:29px;
+	background-image:url(FB-f-Logo__Blue_29.png);
+}
+
+#twitterCell{
+	margin-left:auto;
+	margin-right:auto;
+	width:29px;
+	height:29px;
+	background:#55ACEE;
+	border-radius:5px;
+}
+#githubCell{
+	margin-left:auto;
+	margin-right:auto;
+	width:29px;
+	height:29px;
+	border-radius:5px;
+}
+#youtubeCell{
+	margin-left:auto;
+	margin-right:auto;
+	width:29px;
+	height:29px;
+	border-radius:5px;
+}
+
+.caption{
+	background:#040535;
+	width:800px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#ffffff;
+	font-family:helvetica;
+}
+
+#teamIntro{
+	font-family:helvetica;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
