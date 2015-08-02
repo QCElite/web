@@ -1,5 +1,6 @@
 .body{
 	margin:0px;
+	font-family:helvetica;
 }
 
 #content{
@@ -52,8 +53,8 @@
 }
 
 #footerTopRow{
-	width:580;
-	height:100;
+	width:1006px;
+	height:150px;
 	margin-left:auto;
 	margin-right:auto
 }
@@ -82,7 +83,12 @@
 	margin-right:auto;
 	text-align:center;
 	font-family:helvetica;
-	margin-top:10px;
+	margin-top:12px;
+	underline:none;
+}
+
+.headerlink:hover{
+color:#00056C;
 }
 
 .socialCell{
@@ -122,6 +128,29 @@
 	border-radius:5px;
 }
 
+.newsTab{
+	height:65px;
+	width:100%;
+}
+
+.newsThumb{
+	margin-top:2px;
+	height:50px;
+	width:50px;
+	border-radius:5px;
+	float:left;
+	margin-top:7px;
+	margin-right:5px;
+	margin-left:5px;
+}
+.newsPrev{
+	float:left;
+	width:140px;
+	color:white;
+	margin-top:23px;
+	font-family:helvetica;
+}
+
 .caption{
 	background:#040535;
 	width:800px;
@@ -133,8 +162,13 @@
 }
 
 #teamIntro{
+	background:#dfdfdf;
+	border-radius:5px;
+	padding:5px;
 	font-family:helvetica;
-	width:900px;
+	width:850px;
+	size:20px;
 	margin-left:auto;
 	margin-right:auto;
+	line-height:20px
 }
