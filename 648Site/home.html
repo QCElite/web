@@ -2,7 +2,7 @@
 <head>
 	<title>Quad City Elite Robotics</title>
 	
-	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="res/style.css" />
 </head>
 <body style="background:#f4f4f4">
 
@@ -10,7 +10,7 @@
 	<div id="torso">
 		<div id="sidebar">
 			<div id="headerLogo">
-				<img id="logo" src="logo2k3.gif" />
+				<img id="logo" src="res/logo2k3.gif" />
 			</div>
 			<div id="calendar" style="margin-top:150px;width:200px;margin-left:auto;margin-right:auto">
 				<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=vlo3l28mnocdlcars2ibeumlro%40group.calendar.google.com&amp;color=%23BE6D00&amp;ctz=America%2FChicago" style=" border-width:0 " width="200" height="200" frameborder="0" scrolling="no"></iframe>
@@ -33,9 +33,9 @@
 			<div class="headerCell"><a style="text-decoration:none" href="contact.html"><p class="headerlink">Contact</p></a></div>
 			<div class="headerCell" id="social" style="width:15%">
 				<div class="socialCell" id="facebook"><a href="https://www.facebook.com/qcelite" title="Facebook"><div id="facebookCell"></div></a></div>
-				<div class="socialCell" id="twitter"><a href="http://twitter.com/qcelite648" title="Twitter"><div id="twitterCell"><img src="Twitter_logo_white.png" style="width:25px;margin-left:3px;margin-top:5px" /></div></a></div>
-				<div class="socialCell" id="github"><a href="https://github.com/QCElite" title="GitHub"><div id="githubCell"><img src="GitHub-Mark-32px.png" style="width:29px" /></div></a></div>
-				<div class="socialCell" id="youtube"><a href="https://www.youtube.com/channel/UC7LSvf60OgJjLc2cNyW-9yA" title="YouTube"><div id="youtubeCell"><img src="YouTube-social-squircle_red_24px.png" style="width:29px" /></div></a></div>
+				<div class="socialCell" id="twitter"><a href="http://twitter.com/qcelite648" title="Twitter"><div id="twitterCell"><img src="res/social/Twitter_logo_white.png" style="width:25px;margin-left:3px;margin-top:5px" /></div></a></div>
+				<div class="socialCell" id="github"><a href="https://github.com/QCElite" title="GitHub"><div id="githubCell"><img src="res/social/GitHub-Mark-32px.png" style="width:29px" /></div></a></div>
+				<div class="socialCell" id="youtube"><a href="https://www.youtube.com/channel/UC7LSvf60OgJjLc2cNyW-9yA" title="YouTube"><div id="youtubeCell"><img src="res/social/YouTube-social-squircle_red_24px.png" style="width:29px" /></div></a></div>
 			</div>
 		</div>
 		<div id="core" style="width:1000px;">
@@ -43,7 +43,7 @@
 			<!-- BEGIN HOMEPAGE CODE. CUT/REPLACE FOR OTHER PAGES. -->
 			<div id="images" style="width:900px;height:325px;margin-left:auto;margin-right:auto;overflow:hidden;margin-top:10px; background:#040535;">
 				<div id="leftBar" style="width:700px;float:left">
-					<div id="storyTitle" style="color:#ffffff;width:700px;font-size:18pt;font-family:helvetica;background:url(r2oc.jpg);background-size: 700px, 200px;height:325px">
+					<div id="storyTitle" style="color:#ffffff;width:700px;font-size:18pt;font-family:helvetica;background:url(res/images/r2oc.jpg);background-size: 700px, 200px;height:325px">
 						<div style="background: rgba(0, 0, 0, .5); margin:0px;padding-left:5px">Week 1 Update - William P.</div>
 					</div>
 					
@@ -54,31 +54,31 @@
 				</div>
 				<div id="rightBar" style="width:200px;height:325px;float:left">
 					<div class="newsTab">
-						<img class="newsThumb" src="bag.jpg" />
+						<img class="newsThumb" src="res/images/bag.jpg" />
 						<div class="newsPrev">
 							Stop Build 2015
 						</div>
 					</div>
 					<div class="newsTab">
-					<img class="newsThumb" src="pekin.jpg" />
+					<img class="newsThumb" src="res/images/pekin.jpg" />
 						<div class="newsPrev">
 							Preparing for Pekin
 						</div>
 					</div>
 					<div class="newsTab">
-						<img class="newsThumb" src="r2oc.jpg" />
+						<img class="newsThumb" src="res/images/r2oc.jpg" />
 						<div class="newsPrev">
 							Competition Schedule
 						</div>
 					</div>
 					<div class="newsTab">
-						<img class="newsThumb" src="r2oc.jpg" />
+						<img class="newsThumb" src="res/images/r2oc.jpg" />
 						<div class="newsPrev">
 							New Web Site
 						</div>
 					</div>
 					<div class="newsTab">
-						<img class="newsThumb" src="r2oc.jpg" />
+						<img class="newsThumb" src="res/images/r2oc.jpg" />
 						<div class="newsPrev">
 							Week 1 Update
 						</div>
@@ -104,28 +104,39 @@
 
 <div id="footer">
 	<div id="footerTopRow">
-		<img id="deerelogo" style="float:left; height:150px" src="sponsor_logos/john_deere.svg" />
-		<div style="width:570px;float:left;height:150px">
-			<img id="firstlogo" src="first-horizontal.png" />
-			<div style="width:150px;float:left;margin-top:15px">
-				<p id="footerMoP" style="font-family:helvetica;text-align:center;">Official Publication of the QC Elite Ministry of Propaganda</p>
+		<img id="deerelogo" style="float:left; height:172px; width:258px;" src="res/sponsor_logos/john_deere.svg" />
+		
+		<div style="width:631;float:left">
+			<div style="margin-top:25px;">
+				<img id="firstlogo" src="res/first-horizontal.png" />
+				<div style="width:232px;float:left;">
+					<p id="footerMoP" style="font-family:helvetica;text-align:center;">QC Elite would like to give a big thank you to all our generous sponsors!</p>
+				</div>
+				<img id="frclogo" src="res/FRC_FIRSTBlue_RGB.gif" />
 			</div>
-			<img id="frclogo" src="FRC_FIRSTBlue_RGB.gif" />
-			<div style="width:570px	">
-				<div style="width:400px;margin-left:auto;margin-right:auto">
-				<img id="cobhamlogo" style="margin-left:auto;margin-right:auto; width:400px" src="sponsor_logos/cobham.svg" />
+			
+			<div style="width:100%;float:left">
+				<div style="width: 504px; margin-top: 15px; margin-left:auto;margin-right:auto;">
+					<img id="cobhamlogo" style="width:504px; height: 55px; margin-left:auto;margin-right:auto;" src="res/sponsor_logos/cobham.svg" />	
 				</div>
 			</div>
 		</div>
-		<img id="alcoalogo"  style="float:right; height:150px" src="sponsor_logos/alcoa.svg" />
+		
+		<img id="alcoalogo"  style="float:left; height:162px; width: 216px; margin-top:7px;" src="res/sponsor_logos/alcoa.svg" />
 	</div>
-	<div id="footerSecondRow" style="margin-left:auto; margin-right:auto; width:1000px;margin-top:7px;">
-		<img id="walmartlogo" style="float:left; height:80" src="sponsor_logos/walmart.svg" />
-		<img id="samsclublogo" style="float:left; height:100px" src="sponsor_logos/Sams_Club.svg" />
-		<img id="ieeelogo" style="float:left; height:75px" src="sponsor_logos/IEEE.svg" />
-		<img id="ndialogo" style="float:left; height:65px" src="sponsor_logos/NDIA.svg" />
+	
+	<div id="footerSecondRow" style="margin-top:5px;width:1105px;height:90px;margin-left:auto;margin-right:auto;">
+		<img id="ieeelogo" style="float:left; height:90px" src="res/sponsor_logos/IEEE.svg" />
+		<div style = "width:624px; float:left">
+			<div style="width:471px;margin-left: auto;margin-right: auto;">
+				<img id="walmartlogo" style="float:left; height:90px" src="res/sponsor_logos/walmart.svg" />
+				<img id="samsclublogo" style="float:left; height:90px" src="res/sponsor_logos/Sams_Club.svg" />
+			</div>
+		</div>
+		<img id="ndialogo" style="float:left; height:90px" src="res/sponsor_logos/NDIA.svg" />
 		
 	</div>
+	
 </div>
 
 
